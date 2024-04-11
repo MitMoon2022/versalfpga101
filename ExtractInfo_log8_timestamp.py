@@ -3,13 +3,9 @@
 import os
 import csv
 import re
-import time
 from datetime import datetime   #for timestamp usage
 
-wfilename = "fLogG_5-8"
-extension = "csv"
-de_wfilename = "default"
-
+wfilename = "fLogG_5-8.csv"
 
 header1 = ["SN", "Test site", "Chip Temperature", 'DNA', "killsystest", 'read_dna', 'contact_check',
            'apuburst_r001', 'rpuburst_r001', 'aie2char_r001', 'STARTDT', 'ENDDT', 'remark']
@@ -29,19 +25,10 @@ Param1 = "Versal_VC2802_ES1_LPNOM_ALL"
 Param2 = "Versal_VC2802_ES1_LPNOM_CHK"
 
 def write_to_file(output):
-    with open(de_wfilename, "w", newline='') as f:
+    with open(wfilename, "w", newline='') as f:
         writer = csv.DictWriter(f, fieldnames=header4, extrasaction='ignore')
         writer.writeheader()
         writer.writerows(output)
-
-def generate_filename_with_unix_timestamp(prefix, extension):
-    # Get current Unix timestamp
-    unix_timestamp = int(time.time())
-    # Concatenate prefix, timestamp, and extension
-    filename = f"{prefix}_{unix_timestamp}.{extension}"
-    return filename
-
-de_wfilename=generate_filename_with_unix_timestamp(wfilename,extension)
 
 cwd = os.getcwd()
 files = os.listdir(cwd)
@@ -79,21 +66,20 @@ for file in files:
                     data[key] = value.strip()
                 else:
                     key = words[0].replace('TEST', "").strip()
-                    value = words[-1].replace('Result', "").replace("PASS", 'PASS').replace('1', 'PASS').replace("FAIL",'FAIL')
+                    value = words[-1].replace('Result', "").replace("PASS", 'P').replace('1', 'P').replace("FAIL",'F')
                     data[key] = value.strip()    
             data["Timestamp"] = (infor_t.strip())  # add the key-value pair to the dictionary                                                                                         
         
         # Adding the "remark" column based on specified keys
         if 'apuburst_r001' in data and 'rpuburst_r001' in data and 'aie2char_r001' in data:
             if data['apuburst_r001'] == 'P' and data['rpuburst_r001'] == 'P' and data['aie2char_r001'] == 'P'and data['gtyppcs_r001'] == 'P':
-                data['remark'] = 'PASS'
+                data['remark'] = 'P'
             else:
-                data['remark'] = 'FAIL'
+                data['remark'] = 'F'
         else:
             data['remark'] = 'Na'
 
         lis_dic.append(data)
-#============================================================================================================================
 
 write_to_file(lis_dic)
-print(f'Successfully wrote to {de_wfilename}')
+print(f'Successfully wrote to {wfilename}')
