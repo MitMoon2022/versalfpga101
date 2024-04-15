@@ -6,7 +6,7 @@ import re
 import time
 from datetime import datetime   #for timestamp usage
 
-wfilename = "fLogG_5-8"
+wfilename = "fLogG_5-9"
 extension = "csv"
 de_wfilename = "default"
 
@@ -32,8 +32,15 @@ def write_to_file(output):
     with open(de_wfilename, "w", newline='') as f:
         writer = csv.DictWriter(f, fieldnames=header4, extrasaction='ignore')
         writer.writeheader()
-        writer.writerows(output)
-
+        #writer.writerows(output)
+        for i, row in enumerate(output):          #to clear the extra row at the beginning. i index starts from 0,1,2
+            if i == 0 and (row['remark'] == 'Na' or row.get('SN', '')):   #Apply condition only for row 2
+                continue
+            writer.writerow(row)
+        #-----------------------------------------------------------------------------    
+            #if row['remark'] != 'Na':  # Skip rows with 'remark' value 'Na'
+            #    writer.writerow(row)
+        #-----------------------------------------------------------------------------    
 def generate_filename_with_unix_timestamp(prefix, extension):
     # Get current Unix timestamp
     unix_timestamp = int(time.time())
@@ -72,25 +79,25 @@ for file in files:
         data = {}
         with open(os.path.join(cwd, file), 'r') as f:
             for line in f:
-                words = line.strip().split(":")
-                if len(words) == 2:
-                    key = words[0]
-                    value = words[1]
-                    data[key] = value.strip()
+                if line.strip():        # Skip empty lines
+                    words = line.strip().split(":")
+                    if len(words) == 2:
+                        key = words[0]
+                        value = words[1]
+                        data[key] = value.strip()
+                    else:
+                        key = words[0].replace('TEST', "").strip()
+                        value = words[-1].replace('Result', "").replace("PASS", 'PASS').replace('1', 'PASS').replace("FAIL",'FAIL')
+                        data[key] = value.strip()    
+                data["Timestamp"] = (infor_t.strip())  # add the key-value pair to the dictionary                                                                                         
+            # Adding the "remark" column based on specified keys
+                if 'apuburst_r001' in data and 'rpuburst_r001' in data and 'aie2char_r001' in data:
+                    if data['apuburst_r001'] == 'P' and data['rpuburst_r001'] == 'P' and data['aie2char_r001'] == 'P'and data['gtyppcs_r001'] == 'P':
+                        data['remark'] = 'PASS'
+                    else:
+                        data['remark'] = 'FAIL'
                 else:
-                    key = words[0].replace('TEST', "").strip()
-                    value = words[-1].replace('Result', "").replace("PASS", 'PASS').replace('1', 'PASS').replace("FAIL",'FAIL')
-                    data[key] = value.strip()    
-            data["Timestamp"] = (infor_t.strip())  # add the key-value pair to the dictionary                                                                                         
-        
-        # Adding the "remark" column based on specified keys
-        if 'apuburst_r001' in data and 'rpuburst_r001' in data and 'aie2char_r001' in data:
-            if data['apuburst_r001'] == 'P' and data['rpuburst_r001'] == 'P' and data['aie2char_r001'] == 'P'and data['gtyppcs_r001'] == 'P':
-                data['remark'] = 'PASS'
-            else:
-                data['remark'] = 'FAIL'
-        else:
-            data['remark'] = 'Na'
+                    data['remark'] = 'Na'
 
         lis_dic.append(data)
 #============================================================================================================================
