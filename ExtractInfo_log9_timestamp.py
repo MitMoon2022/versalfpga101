@@ -34,7 +34,9 @@ def write_to_file(output):
         writer.writeheader()
         #writer.writerows(output)
         for i, row in enumerate(output):          #to clear the extra row at the beginning. i index starts from 0,1,2
-            if i == 0 and (row['remark'] == 'Na' or row.get('SN', '')):   #Apply condition only for row 2
+            if i == 0 and not row.get('SN'):   # Skip the first row if it doesn't have a value for 'SN'
+            #if i == 0 and (row['remark'] == 'Na' or row.get('SN', '')):   #Apply condition only for row 2
+                print('skip')
                 continue
             writer.writerow(row)
         #-----------------------------------------------------------------------------    
@@ -91,8 +93,8 @@ for file in files:
                         data[key] = value.strip()    
                 data["Timestamp"] = (infor_t.strip())  # add the key-value pair to the dictionary                                                                                         
             # Adding the "remark" column based on specified keys
-                if 'apuburst_r001' in data and 'rpuburst_r001' in data and 'aie2char_r001' in data:
-                    if data['apuburst_r001'] == 'P' and data['rpuburst_r001'] == 'P' and data['aie2char_r001'] == 'P'and data['gtyppcs_r001'] == 'P':
+                if 'apuburst_r001' in data and 'rpuburst_r001' in data and 'aie2char_r001' in data and 'gtyppcs_r001' in data:
+                    if data['apuburst_r001'] == 'PASS' and data['rpuburst_r001'] == 'PASS' and data['aie2char_r001'] == 'PASS'and data['gtyppcs_r001'] == 'PASS':
                         data['remark'] = 'PASS'
                     else:
                         data['remark'] = 'FAIL'
