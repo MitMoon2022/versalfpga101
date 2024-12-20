@@ -1,0 +1,10 @@
+{
+    "RobotL": {
+        "Enable": true,
+        "Type": "RobotL",
+        "Controller": "ControlPC2212",
+        "Terminal": {
+            "PythonBash": true
+        }
+    }
+}
