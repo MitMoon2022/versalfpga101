@@ -55,9 +55,9 @@ class TCUMasterThread:
     def __init__(self, num_channels=4):
         self.num_channels = num_channels
         self.temp_queue = queue.Queue()
-        self.manager = Manager()
-        self.shared_state = self.manager.dict()  # Shared state for all channels
-        #self.shared_state = {}  # simple dictionary, thread-safe with Lock()
+        #self.manager = Manager()
+        #self.shared_state = self.manager.dict()  # Shared state for all channels
+        self.shared_state = {}  # simple dictionary, thread-safe with Lock()
         self.lock = Lock()
         self.monitors = []
 
