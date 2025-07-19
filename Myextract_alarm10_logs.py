@@ -22,7 +22,9 @@ de_wfilename=generate_filename_with_unix_timestamp(wfilename,extension)
 # Step 1: Parse log files
 # -------------------------------
 
-log_directory = "./Logs"
+#log_directory = "./Logs"
+script_dir = os.path.dirname(os.path.abspath(__file__)) #edited so that it will run even in home dir
+log_directory = os.path.join(script_dir, 'Logs') #edited so that it will run even in home dir
 
 #alarm_pattern = re.compile(r"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}(?:,\d+)? - .* - INFO - <<ALARM%(\d+)%(.+?)>>")
 alarm_pattern = re.compile(r"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})(?:,\d+)? - .* - INFO - <<ALARM%(\d+)%(.+?)>>")
