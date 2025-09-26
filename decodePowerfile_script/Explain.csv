@@ -1,0 +1,22 @@
+How it works on your uploaded PowerFile.csv:
+
+It finds the row with “#Cond#” in the first column and “Comments” in the last column (row 12 in your file).
+"Uses that row to rename the rail columns to the rail names (e.g., VCCINT, VCC_RAM, VCC_AIE, …, LP5_VDDQ_0V5, DDR5_VDDQ_1V1)."
+"Iterates through the data rows below it (rows 13 onward), reading numeric values per rail and associating them to the condition label in the “Comments” column (e.g., #LPMin, #MPMin, #MHPMax-DDR)."
+Outputs a tidy table you can pivot or filter.
+
+Example usage:
+
+Decode to CSV: python decode_powerfile.py --csv PowerFile.csv --output-csv decoded_rails.csv
+Also write JSON grouped by rail: python decode_powerfile.py --csv PowerFile.csv --output-csv decoded_rails.csv --output-json decoded_rails.json
+
+"What you get (sample rows): Rail,Condition,Voltage VCCINT,#LPMin,0.676 VCCINT,#MPMin,0.76 VCCINT,#MHPMin,0.76 VCCINT,#MHPMax,0.84 ... DDR5_VDDQ_1V1,#LPMin-DDR,1.045 DDR5_VDDQ_1V1,#MHPMax-DDR,1.155"
+
+Example session and results
+
+Command:
+python3 decode_powerfile.py --csv PowerFile.csv --output-csv decoded_rails.csv --output-json decoded_rails.json
+Outputs:
+"decoded_rails.csv with columns: Rail,Condition,Voltage"
+decoded_rails.json grouped by rail:
+"{ ""VCCINT"": [ { ""Condition"": ""#LPMin"", ""Voltage"": 0.676 }, { ""Condition"": ""#MPMin"", ""Voltage"": 0.760 } ], ""VCC_RAM"": [ { ""Condition"": ""#LPMin"", ""Voltage"": 0.900 } ] }"

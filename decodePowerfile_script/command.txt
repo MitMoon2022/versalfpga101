@@ -1,0 +1,1 @@
+python3 decode_powerfile.py --csv PowerFile.csv --output-csv decoded_rails.csv --output-json decoded_rails.json

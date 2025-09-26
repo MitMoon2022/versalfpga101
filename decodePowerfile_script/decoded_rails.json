@@ -1,0 +1,1642 @@
+{
+  "DDR5_VDDQ_1V1": [
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.155
+    }
+  ],
+  "GTYP_AVCC": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.948
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.948
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.948
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.88
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.854
+    }
+  ],
+  "GTYP_AVCCAUX": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.5
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.455
+    }
+  ],
+  "GTYP_AVTT": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.2
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.14
+    }
+  ],
+  "GTYP_MMI_AVCCAUX_RS": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.5
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.455
+    }
+  ],
+  "GTYP_MMI_AVCC_RS": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.948
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.948
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.948
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.854
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.88
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.854
+    }
+  ],
+  "GTYP_MMI_AVTT_RS": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.2
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.14
+    }
+  ],
+  "LP5_VDDQ_0V5": [
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.475
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.525
+    }
+  ],
+  "VCCAUX": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.5
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.455
+    }
+  ],
+  "VCCAUX_LPD": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.545
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.455
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.5
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.455
+    }
+  ],
+  "VCCINT": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.7
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCCIO_MIPI_507": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.2
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.14
+    }
+  ],
+  "VCCIO_PAUX_504": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.89
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.89
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.89
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.71
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.8
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.71
+    }
+  ],
+  "VCCIO_USB3_504": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.26
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.14
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.2
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.14
+    }
+  ],
+  "VCCIO_VCCREG_USB2_504": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 3.3
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 3.135
+    }
+  ],
+  "VCCO_400-402": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 3.3
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 3.135
+    }
+  ],
+  "VCCO_500": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 3.3
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 3.135
+    }
+  ],
+  "VCCO_501": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 3.3
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 3.135
+    }
+  ],
+  "VCCO_502": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 3.3
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 3.135
+    }
+  ],
+  "VCCO_503": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 3.4
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 3.135
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 3.3
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 3.135
+    }
+  ],
+  "VCCO_700-705": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.05
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.05
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.05
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.95
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.0
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.95
+    }
+  ],
+  "VCCO_706-709": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.155
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.155
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.155
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.1
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.045
+    }
+  ],
+  "VCCO_710-715": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 1.155
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 1.155
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 1.155
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 1.045
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 1.1
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 1.045
+    }
+  ],
+  "VCC_AIE": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.7
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_FPD": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.836
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.836
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.88
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_IO_SOC": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.8
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_LPD": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.836
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.836
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.676
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.88
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_MIPI_507": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.8
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_MMD": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.836
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.836
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.665
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.665
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.665
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.924
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.88
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_PAUX_USB3_504": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.8
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_RAM": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.8
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ],
+  "VCC_USB2_504": [
+    {
+      "Condition": "#LPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LHPMin",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MPMin-MMDL",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-MMDL",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-DDR",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#MHPMax-DDR",
+      "Voltage": 0.84
+    },
+    {
+      "Condition": "#LPMin-MMD",
+      "Voltage": 0.76
+    },
+    {
+      "Condition": "#LHPNom",
+      "Voltage": 0.8
+    },
+    {
+      "Condition": "#MPMin_3pc",
+      "Voltage": 0.776
+    }
+  ]
+}
